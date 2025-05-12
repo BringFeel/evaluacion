@@ -3,6 +3,28 @@ Aquí comienza tu archivo CSS.
 Añade estilos a los elementos de la página HTML.
 */
 
+/* Francisco Santiago Vizgarra */
+
+#unicoNombre {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+h2 {
+    color: #2196F3;
+}
+
+#formulario-contacto {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -41,7 +63,8 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="number"] {
     padding: 8px;
     margin-bottom: 10px;
 }
